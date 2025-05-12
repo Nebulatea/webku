@@ -186,4 +186,17 @@ img {
 
 /* five/five */
 
+.container.e {
+    bottom: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.container.e div {
+    padding: 16px;
+}
+
 
