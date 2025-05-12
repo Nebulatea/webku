@@ -9,7 +9,7 @@ ul{
     display: flex;
     gap:8px;
     margin-left: auto;
-    margin-right: 116px;
+    margin-right: 120px;
     padding: 8px;
     color:#E5E7EB;
 }
@@ -24,9 +24,9 @@ ul{
 }
 
 .header {
-    color: aliceblue; /*dummy*/
     display: flex;
-    margin-left: 116px;
+    margin-left: 120px;
+    margin-bottom: 64px;
 }
 
 .one {
@@ -37,5 +37,53 @@ ul{
 }
 
 .text {
-    color: aliceblue;
+    color: #E5E7EB;
+    display: flex;
+    gap: 64px;
+    padding-bottom: 64px;
+}
+
+.two {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left {
+    margin-left: 124px;
+}
+
+.left button{
+    margin-top: 8px;
+    background: #3882F6;
+    color :#F9FAF8;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.image{
+    margin-right: 128px;
+    flex: none;
+    width: 380px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    position: absolute;
+    z-index: 1;
+    color:aliceblue
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 2;
+    position: relative;
 }
