@@ -36,7 +36,7 @@ ul{
     font-weight: bold;
 }
 
-.text {
+.container.a .text {
     color: #E5E7EB;
     display: flex;
     gap: 64px;
@@ -90,7 +90,7 @@ img {
 
 /* two/five */
 
-.title {
+.container.b .title {
     font-size: 36px;
     color:#1F2937;
     font-weight: 900;
@@ -135,4 +135,55 @@ img {
 }
 
 /* four/five */
+
+.container.d div.title{
+    font-size: x-large;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-left: 64px;
+    padding-top: 32px;
+}
+
+.container.d div {
+    color: #E5E7EB;
+    text-align: left;
+   
+}
+
+.container.d {
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    background-color: #3882F6;
+     display: flex;
+    flex-flow: row;
+
+    align-items: center;
+}
+
+.container.d button {
+  border: 2px solid #F9FAF8;
+  padding: 8px 16px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px ;
+  margin-right: 64px;
+}
+
+.container.d .text {
+    display: flex;
+    flex-flow: column;
+    margin-right: auto;
+    
+}
+
+.container.d .sub{
+    padding-left: 64px;
+    padding-bottom: 32px;
+   
+}
+
+/* five/five */
+
 
