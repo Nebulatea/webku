@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap:8px;
+    margin-left: auto;
+    margin-right: 116px;
+    padding: 8px;
+    color:#E5E7EB;
+}
+
+.body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+.container.a {
+    background-color: #1F2937;
+}
+
+.header {
+    color: aliceblue; /*dummy*/
+    display: flex;
+    margin-left: 116px;
+}
+
+.one {
+    padding: 8px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.text {
+    color: aliceblue;
+}
